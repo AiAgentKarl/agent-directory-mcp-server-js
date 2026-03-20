@@ -1,0 +1,31 @@
+{
+  "name": "@aiagentkarl/agent-directory-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP Server for agent/service discovery and registry — register, search, rate, and manage AI agents and services",
+  "type": "module",
+  "bin": {
+    "agent-directory-server": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "agent-directory",
+    "service-registry",
+    "service-discovery",
+    "ai-agents",
+    "agent-infrastructure"
+  ],
+  "author": "AiAgentKarl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AiAgentKarl/agent-directory-mcp-server-js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
